@@ -143,10 +143,9 @@ function limpiarCanvas(){
 
 function comenzarJuego(){
     arregloIncorrectas=[];
-    limpiarCanvas();
+   // limpiarCanvas();
     palabraInco.innerText = "";
     if(palabraSorteada){
-       
         let arregloPalabra = palabraSeleccionada.split('');
         hombre = new Ahorcado(contexto);
         tamanio = new Array(arregloPalabra.length);
